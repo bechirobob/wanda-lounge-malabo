@@ -490,3 +490,9 @@ input:focus-visible,select:focus-visible,textarea:focus-visible,a:focus-visible,
 .theme-wanda .chip.active,.theme-wanda .chip:hover { background: transparent; color: #f04f9a; border-color: #f04f9a; }
 .theme-wanda input,.theme-wanda select,.theme-wanda textarea { border-radius: 2px; background: #fff; }
 
+
+@media (max-width: 640px) {
+  .theme-wanda .menu-list { grid-template-columns: 1fr; }
+  .theme-wanda .menu-item { border-width: 0 0 1px; min-height: auto; }
+  .theme-wanda .hero-panel { border-radius: 0 0 44px 0; }
+}
