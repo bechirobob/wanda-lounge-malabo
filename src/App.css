@@ -475,7 +475,7 @@ input:focus-visible,select:focus-visible,textarea:focus-visible,a:focus-visible,
 .theme-wanda .nav-links a:hover { background: transparent; color: #f04f9a; box-shadow: inset 0 -2px #f04f9a; }
 .theme-wanda .hero { grid-template-columns: 1.15fr .85fr; align-items: center; }
 .theme-wanda h1 { font-size: clamp(3.2rem, 8.4vw, 8rem); line-height: .86; text-transform: uppercase; }
-.theme-wanda .hero-panel { border-radius: 0 0 90px 0; border: 1px solid rgba(255,247,251,.24); box-shadow: 0 0 0 8px rgba(240,79,154,.12); min-height: 560px; }
+.theme-wanda .hero-panel { border-radius: 0; clip-path: polygon(0 0, 100% 0, 100% 92%, 92% 100%, 0 100%); border: 1px solid rgba(255,247,251,.24); box-shadow: 0 0 0 8px rgba(240,79,154,.12); min-height: 560px; }
 .theme-wanda .hero-card { right: 0; bottom: 0; border-radius: 0; border: 0; border-top: 2px solid #f04f9a; background: #090512; color: #fff7fb; box-shadow: none; backdrop-filter: none; }
 .theme-wanda .hero-card a { color: #f04f9a; }
 .theme-wanda .button { border-radius: 2px; box-shadow: none; min-height: 46px; text-transform: uppercase; letter-spacing: .08em; }
@@ -494,5 +494,5 @@ input:focus-visible,select:focus-visible,textarea:focus-visible,a:focus-visible,
 @media (max-width: 640px) {
   .theme-wanda .menu-list { grid-template-columns: 1fr; }
   .theme-wanda .menu-item { border-width: 0 0 1px; min-height: auto; }
-  .theme-wanda .hero-panel { border-radius: 0 0 44px 0; }
+  .theme-wanda .hero-panel { border-radius: 0; clip-path: polygon(0 0, 100% 0, 100% 96%, 90% 100%, 0 100%); }
 }
